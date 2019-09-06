@@ -49,3 +49,39 @@ i{
     margin-top: 6%;
     margin-right: 5%;
 }
+.gallery-big{
+    display: flex;
+    padding-top: 5%;
+    padding-left: 5%;
+    height: 600px;
+}
+.col-inside{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    
+
+}
+.col-inside img{
+    width: 70%;
+    height: 100%;
+}
+#smol{
+    padding-top: 2%;
+}
+p{
+    padding-top: 5%;
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.horiz-gallery{
+    display: flex;
+    height: 250px;
+   
+    justify-content: space-around
+    }
+.horiz-gallery img{
+    width: 20%
+    
+}
