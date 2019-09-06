@@ -1,0 +1,51 @@
+body{
+    font-family: 'Satisfy', cursive;
+}
+h1{
+  
+    font-size: 40px;
+    margin: 0 auto; 
+    text-align: center;
+ 
+
+}
+h2{
+
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 12px;
+    margin: 0 auto; 
+    text-align: center;
+}
+nav{
+    padding-top: 3%;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+a{
+    font-family: 'Lexend Zetta', sans-serif;
+    padding-right: 15px;
+    text-decoration: none;
+    color: black;
+   
+}
+
+input{
+    display: none;
+    float: right;
+    border: 0;
+    margin-top: 6%;
+    margin-right: 5%;
+}
+i{
+    margin-top: 6%;
+    margin-left: 5%;
+}
+
+.fa-search{
+    float: right;
+    border: 0;
+    margin-top: 6%;
+    margin-right: 5%;
+}
