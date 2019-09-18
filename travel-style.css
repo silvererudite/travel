@@ -1,10 +1,16 @@
+/* :root{
+    --light-color: yellow;
+    --dark-color: maroon;
+} */
+
 body{
     font-family: 'Satisfy', cursive;
+   
 }
 h1{
   
     font-size: 40px;
-    margin: 0 auto; 
+    /* margin: 0 auto;  */
     text-align: center;
  
 
@@ -13,7 +19,7 @@ h2{
 
     font-family: 'Lexend Zetta', sans-serif;
     font-size: 12px;
-    margin: 0 auto; 
+    /* margin: 0 auto;  */
     text-align: center;
 }
 nav{
@@ -38,7 +44,7 @@ input{
     margin-top: 6%;
     margin-right: 5%;
 }
-i{
+button{
     margin-top: 6%;
     margin-left: 5%;
 }
@@ -78,10 +84,13 @@ p{
 .horiz-gallery{
     display: flex;
     height: 250px;
-   
     justify-content: space-around
     }
 .horiz-gallery img{
-    width: 20%
+    width: 20%;
     
+}
+button{
+    border: none;
+    background: none;
 }
