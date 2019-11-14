@@ -18,8 +18,8 @@
        
          <button id="switch"><i class="fas fa-lightbulb fa-2x"></i></button>
          <i class="fas fa-user-circle fa-2x"></i>
-        <input type="search" placeholder="where to">
-        <i class="fas fa-search fa-2x"></i>
+        <input type="search" placeholder="where to" id="input">
+        <i class="fas fa-search fa-2x" id="search"></i>
 
   
         <h1>Wanderer's Journals</h1>
@@ -59,28 +59,6 @@
 
      </footer>
         
-    <script >
-        var dark=false;
-        const btn= document.getElementById('switch');
-       
-       
-        btn.addEventListener('click',
-        function ifClicked(){
-           
-           if(!dark){
-            document.getElementById('bc').style.backgroundColor="gray";
-            document.getElementById('bc').style.color="white";
-            dark=true;
-           }
-           else{
-            document.getElementById('bc').style.backgroundColor="white";
-            document.getElementById('bc').style.color="black";
-            dark=false;
-           }
-        });
-        
-
-
-    </script>
+    <script src="travel-js.js"></script>
     </body>
 </html>

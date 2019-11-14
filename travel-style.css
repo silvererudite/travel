@@ -1,8 +1,3 @@
-/* :root{
-    --light-color: yellow;
-    --dark-color: maroon;
-} */
-
 body{
     font-family: 'Satisfy', cursive;
    
@@ -95,3 +90,6 @@ button{
     background: none;
     padding-right: 2%;
 }
+/* makes the magnifier appear or disappear
+when icon is clicked
+ */
